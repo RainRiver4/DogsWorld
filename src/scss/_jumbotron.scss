@@ -1,0 +1,16 @@
+.jumbotron {
+    position: relative;
+    color: #fff;
+
+    &-bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background-image: url("../../public/images/clouds.jpg");
+        background-position: bottom center;
+        background-size: cover;
+        z-index: -1;
+    }
+}

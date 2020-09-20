@@ -1,0 +1,38 @@
+.info {
+    font-size: 0.9rem;
+}
+
+.second-footer {
+    font-size: 0.9rem;
+    background: darken($secondary, 20%);
+}
+
+.footer-link {
+    margin: 16px 20px;
+    padding: 0;
+}
+
+.fa-facebook,
+.fa-instagram,
+.fa-twitter,
+.fa-pinterest {
+    font-size: 2rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+.fa-facebook:hover {
+    color: #1877f2;
+}
+
+.fa-instagram:hover {
+    color: #d92e7f;
+}
+
+.fa-twitter:hover {
+    color: rgb(29, 161, 242);
+}
+
+.fa-pinterest:hover {
+    color: #c8232c;
+}

@@ -1,0 +1,31 @@
+.accordion-toggle-header-card {
+    padding: 0;
+}
+
+.link-breed:hover:not(.active-breed) {
+    background-color: rgba(0, 0, 0, 0.04);
+}
+
+.active-breed {
+    background-color: $primary;
+    color: #fff;
+}
+
+.breedListScrollbar {
+    height: 110vh;
+    overflow-y: scroll;
+    scrollbar-color: $primary #f7ddd1;
+    scrollbar-width: thin;
+    &::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    &::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 6px #8b4727;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: $primary;
+        outline: 1px solid darken(#8b4727, 20%);
+    }
+}

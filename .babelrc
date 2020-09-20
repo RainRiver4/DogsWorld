@@ -1,0 +1,24 @@
+{
+    "presets": [
+        ["@babel/preset-env", { "useBuiltIns": "usage", "corejs": "2.0.0" }],
+        "@babel/preset-react"
+    ],
+    "plugins": [
+        "@babel/plugin-proposal-class-properties",
+        "@babel/plugin-syntax-jsx",
+        [
+            "module-resolver",
+            {
+                "root": ["./"],
+                "alias": {
+                    "pages": "./src/javascripts/pages",
+                    "images": "./public/images",
+                    "font-awesome": "./node_modules/@fortawesome/fontawesome-free/js/all",
+                    "scss": "./src/scss",
+                    "layouts": "./src/javascripts/layouts",
+                    "components": "./src/javascripts/components"
+                }
+            }
+        ]
+    ]
+}
