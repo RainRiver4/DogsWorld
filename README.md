@@ -17,7 +17,7 @@ Run 'npm run prod' to build prod version of this app.
 -   JavaScript ES6+
 -   React
 -   React-Router
--   Sass & BEM
+-   Sass
 -   Bootstrap
 -   Webpack
 -   Babel
